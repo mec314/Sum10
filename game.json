@@ -1,0 +1,118 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 60,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"enemy": {
+			"type": "script",
+			"path": "script/enemy.js",
+			"global": true
+		},
+		"background": {
+			"type": "script",
+			"path": "script/background.js",
+			"global": true
+		},
+		"global": {
+			"type": "script",
+			"path": "script/global.js",
+			"global": true
+		},
+		"enemy_manager": {
+			"type": "script",
+			"path": "script/enemy_manager.js",
+			"global": true
+		},
+		"get_map": {
+			"type": "script",
+			"path": "script/map.js",
+			"global": true
+		},
+		"gamecore": {
+			"type": "script",
+			"path": "script/gamecore.js",
+			"global": true
+		},
+		"sound1": {
+			"type": "audio",
+			"path": "audio/btn01",
+			"systemId": "sound",
+			"duration": 1432
+		},
+		"sound2": {
+			"type": "audio",
+			"path": "audio/btn02",
+			"systemId": "sound",
+			"duration": 1432
+		},
+		"sound3": {
+			"type": "audio",
+			"path": "audio/btn03",
+			"systemId": "sound",
+			"duration": 1432
+		},
+		"music": {
+			"type": "audio",
+			"path": "audio/music",
+			"systemId": "music",
+			"duration": 1432
+		},
+		"mainscene": {
+			"type": "script",
+			"path": "script/mainscene.js",
+			"global": true
+		},
+		"tutorialscene": {
+			"type": "script",
+			"path": "script/tutorialscene.js",
+			"global": true
+		},
+		"ranking": {
+			"type": "image",
+			"width": 80,
+			"height": 80,
+			"path": "image/ranking.png"
+		},
+		"target2": {
+			"type": "image",
+			"width": 570,
+			"height": 570,
+			"path": "image/bergamot.png"
+		},
+		"restart": {
+			"type": "image",
+			"width": 80,
+			"height": 80,
+			"path": "image/restart.png"
+		},
+		"tutorial_img": {
+			"type": "image",
+			"width": 1074,
+			"height": 758,
+			"path": "image/tutorial.png"
+		}
+	},
+	"moduleMainScripts": {},
+	"environment": {
+		"sandbox-runtime": "3",
+		"niconico": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 65
+			}
+		}
+	}
+}
